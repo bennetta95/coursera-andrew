@@ -1,0 +1,35 @@
+
+*{
+	  box-sizing: border-box;
+	  font-family: Ariel, serif;
+	  background-color: #FFA07A;
+	  color: white;
+}
+
+
+
+h2{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  //https://stackoverflow.com/questions/27780577/how-to-change-content-with-next-and-previous-button-at-same-page// 

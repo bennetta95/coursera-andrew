@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Andrew Quiz</title>
+  <script src = "main.js"></script>
+  <link rel="stylesheet" type="text/css" href="cssquiz2.css">
+
+
+</head>
+<body>
+
+<h1>Andrew's Quiz</h1>
+
+<div class="home">
+<h3> A 3 pointer...<h3>
+  <p>After Prince Albert's death in 1861 it took until 1866 for Queen Victoria to undertake her first public engagement. Which town was the first she visited?</p>
+  <input id="textbox" type="text" name="q1">
+  <p>Where were the first automatic traffic lights in Britain installed in Nov 1927?</p>
+  <input id="textbox" type="text" name="q1">
+  <p>In which city does the A4150 begin and end?</p>
+  <input id="textbox" type="text" name="q1">
+
+</div>
+
+
+<div id="round1">
+
+  <h2>Round 1 Sport </h2>
+  <form id="quiz" name="AndrewQuiz">
+
+    <ol class="list">
+      <div class="column">
+    <li id="question">Who last won the FA cup in 1994/95 and has won it a toal of 5 times?</li>
+          <input id="textbox" type="text" name="q1"><br>
+    <li id="question">Who were 5 of the founding members of the football league</li>
+          <input id="textbox" type="text" name="q1">
+    <li id="question">Who won the most recent Ice Hockey World Championships hosted in Slovakia (2019)?</li>
+        <input id="textbox" type="text" name="q1">
+    
+      </div>
+      <div class="column">
+    <li id="question">Who was the first Indian cricketer to score a century before lunch on the first day of a test match?</li>
+        <input id="textbox" type="text" name="q1">
+      <li id="question">Who was the manager when Newcastle got relegated in 2008/09? (Bonus: Who did they play)</li>
+        <input id="textbox" type="text" name="q1">
+    </div>
+    <div class="column">
+    <li id="question">England Rugby Union team famously scored their biggest win in 2001 a 134-0 victory. Who did they play?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">Harry Redknapp managed West Ham, Portsmouth, Southampton and who immediately after in 2005?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">Who were the male finalists of the 2020 Australian Open?</li>
+          <input id="textbox" type="text" name="q1">
+    </div>
+      <div class="column">
+    <li id="question">Who won the 2012 Olympics in Women's Flyweight boxing?</li>
+      <input id="textbox" type="text" name="q1">
+    <li id="question">In 2014 who was the Championship Playoff winners and runners up?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">LOCAL Bonus: Who won Wolves Young Player of the season 2018/2019?</li>
+      <input id="textbox" type="text" name="q1">
+      </div>
+    </ol>
+    <br>
+
+    <button type="button" id="myBtn" onclick="myFunction()">Next Round</button>
+
+
+  </form>
+
+</div>
+
+<div id="round2">
+      <button type="button" id="myBtnans" onclick="myFunctionAns1()">Answers</button>
+
+
+  <h2>Round 2 Geography </h2>
+  <form id="quiz" name="AndrewQuiz">
+
+    <ol class="list">
+      <div class="column">
+        <li id="question">Which two cities are closer?</li>
+          <ul id="question">
+            <li id="question">Copenhagen and Malmo</li>
+            <li id="question">Wolves and Stoke </li>
+            <li id="question">Paris & Amiens</li>
+            <li id="question">Dusseldorf & Cologne</li>
+          </ul>
+              <input id="textbox" type="text" name="q1"><br>
+          <li id="question">What is the capital of Macedonia?</li>
+          <input id="textbox" type="text" name="q1">
+          <li id="question">What is the smallest country in South America?</li>
+           <input id="textbox" type="text" name="q1">
+      </div>
+      <div class="column">
+      <li id="question">Which city has the biggest population?</li>
+        <ul id="question">
+          <li id="question">Caracas</li>
+          <li id="question">Medellin </li>
+          <li id="question">Manaus</li>
+          <li id="question">Buenos Aires</li>
+          <li id="question">Belo Horizonte</li>
+          <li id="question">Brasillia</li>
+        </ul>
+        <input id="textbox" type="text" name="q1">
+        <li id="question">The river Danube flows into which sea?</li>
+        <input id="textbox" type="text" name="q1">
+          <li id="question">What is regarded as the longest river in the UK?</li>
+          <input id="textbox" type="text" name="q1">
+
+    </div>
+    <div class="column">
+    <li id="question">Which country has the highest crime percentage from:</li>
+       <ul id="question">
+          <li id="question">Honduras</li>
+          <li id="question">Brazil </li>
+          <li id="question">Peru</li>
+          <li id="question">El Salvador</li>
+          <li id="question">Papua New Guinea</li>
+          <li id="question">Afghanistan</li>
+          </ul>
+          <input id="textbox" type="text" name="q1">
+          <li id="question">What is the shorter distance?</li>
+            <ul id="question">
+              <li id="question">A. New York to LA</li>
+              <li id="question">B. LA to Medellin</li>
+            </ul>
+           <input id="textbox" type="text" name="q1">
+    </div>
+      <div class="column">
+        <li id="question">Which country has the highest population?</li>
+          <ul id="question">
+          <li id="question">Latvia</li>
+          <li id="question">Lithuania</li>
+          <li id="question">Estonia</li>
+          <li id="question">Wales</li>
+          </ul>
+        <input id="textbox" type="text" name="q1">
+        <li id="question">What is the shorter distance?</li>
+          <ul id="question">
+            <li id="question">A. Santiago to Lima</li>
+            <li id="question">B. Lima to Caracas</li>
+          </ul>
+         <input id="textbox" type="text" name="q1">
+    </div>
+    </ol>
+    <br>
+
+  <p id="map">What country is this?</p>
+  <br>
+  <img src="Map1.png" alt="Map">
+  <br>
+  <input id="textbox" type="text" name="q1">
+  <br>
+
+<button type="button" id="myBtn" onclick="myFunction2()">Next Round</button>
+
+</form>
+</div>
+<br>
+<div class="rowtwo">
+  <div id="round3">
+    <div>
+          <button type="button" id="myBtnans" onclick="myFunctionAns2()">Answers</button>
+</div>
+
+  <div class="columntwo">
+       <h2 class="h22">Round 3 Food</h2>
+    <ol class="list2">
+    <li id="question2">Goulash is originally from?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">Piergoi is this countries ____ interpretaion of the traditional Ukrainian dish Vareniki?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">What is the famous national dish of South Korea?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">What is Roquefort cheese made from?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">What is the main ingredient of the Korean soup Bosintang?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">Which country has a National scampi day?</li>
+     <input id="textbox" type="text" name="q1">
+  </ol>
+  <button type="button" id="myBtninverted" onclick="myFunction3()">Next Round</button>
+</div>
+  </div>
+   <div id="round4">
+  <div class="columntwo">
+    <h2 class="h22">Round 4 Nature</h2>
+    <ol class="list2">
+    <li id="question2">A group of Hedgehogs is known as a?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">Which animal weighs more?</li>
+      <ul id="question2">
+        <li id="question2">Llama </li>
+        <li id="question2">Alpaca </li>
+      </ul>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">There are various types of Rhino. Which type is missing from the following list?</li>
+     <ul id="question2">
+        <li id="question2">Sumatran</li>
+        <li id="question2">Black</li>
+          <li id="question2">Greater Horned</li>
+            <li id="question2">White</li>
+      </ul>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">The Binturong is native to which country?</li>
+     <input id="textbox" type="text" name="q1">
+    <li id="question2">In which modern-day country was the physicist and chemis Marie Curie born?</li>
+     <input id="textbox" type="text" name="q1">
+    </ol>
+    <button type="button" id="myBtninverted" onclick="myFunction4()">Next Round</button>
+  </div>
+</div>
+</div>
+
+
+<div id="round5">
+        <button type="button" id="myBtnans" onclick="myFunctionAns3()">Answers</button>
+
+
+  <h2>Round 5 History </h2>
+  <form id="quiz" name="AndrewQuiz">
+
+    <ol class="list">
+      <div class="column">
+    <li id="question">The War of Jenkins Ear (1739-1748) was between which two countries?</li>
+          <input id="textbox" type="text" name="q1"><br>
+    <li id="question">In the cold war which famous event happened in 1962?</li>
+          <input id="textbox" type="text" name="q1">
+    <li id="question">Who were first two countries to gain independance from Yugoslavia?</li>
+          <input id="textbox" type="text" name="q1">
+      </div>
+      <div class="column">
+    <li id="question">Which former empire had its capital as Cusco?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">In which year did Margaret Thatcher pass away?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">Who was the president of the USA during the moon landing?</li>
+        <input id="textbox" type="text" name="q1">
+    </div>
+    <div class="column">
+    <li id="question">France's National anthem is called?</li>
+        <input id="textbox" type="text" name="q1">
+    <li id="question">Who was the last Chancellor of the Wiemar Republic?</li>
+        <input id="textbox" type="text" name="q1">
+    </div>
+      <div class="column">
+    <li id="question">Which of the following concentration camps has the heighest deaths recorded?</li>
+    <br>
+    <ul id="question2">
+    <li id="question2">Dachau</li>
+    <li id="question2">Sachsenhausen</li>
+    <li id="question2">Chelmno</li>
+  </ul>
+      <input id="textbox" type="text" name="q1">
+   
+      </div>
+    </ol>
+    <br>
+
+    <button type="button" id="myBtn" onclick="myFunction5()">Next Round</button>
+
+  </form>
+
+</div>
+ 
+<br>
+<div class="rowthree">
+  <div id="round6">
+          <button type="button" id="myBtnans" onclick="myFunctionAns4()">Answers</button>
+
+           <h2>The Finale</h2>
+    <div class="columnthree">
+      
+        <p>In 2012 Seattle Seahawks signed which famous QB?</p>
+           <input id="textbox" type="text" name="q1">
+        <p>Who won the British album of the year 2020 and what was the name of the album? (Brit Awards)</p>
+           <input id="textbox" type="text" name="q1">
+           <p>Name the Album (Artist and Album name)</p>
+  <div>
+    A. <img id="image" src="album1.png" alt="album1" height="250px" width="250px">
+    B. <img id="image" src="album2.png" alt="album2" height="250px" width="250px">
+
+  </div>
+             <input id="textbox" type="text" name="q1">
+           <input id="textbox" type="text" name="q1">
+
+      <p>Alnwich Castle is in which British County?</p>
+         <input id="textbox" type="text" name="q1">
+    </div>
+
+   <div class="columnthree">
+   <ul>
+      
+      <p>Alnwich Castle hosted a famous movie filming, which movie?</p>
+         <input id="textbox" type="text" name="q1">
+         <p>Name the Logo</p>
+  <div>
+    A. <img id="image" src="logo1.png" alt="logo1" height="100px" width="100px">
+    B. <img id="image" src="logo2.png" alt="logo2" height="100px" width="100px">
+    C. <img id="image" src="logo3.png" alt="logo3" height="100px" width="100px">
+
+
+  </div>
+           <input id="textbox" type="text" name="q1">
+          <input id="textbox" type="text" name="q1">
+        <input id="textbox" type="text" name="q1">
+<p>Below are listed countries from the EU. Which 5 have been excluded?</p>
+<p>Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Poland, Romania, Slovenia, Spain and Sweden.</p>
+         <input id="textbox" type="text" name="q1">
+
+     </ul>
+</div>      
+
+  <div>    
+      <button type="button" id="myBtn" onclick="myFunctionAns5()">Answers</button>
+
+    <button type="button" id="myBtnend" onclick="myFunction6()">End!!!</button>
+
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

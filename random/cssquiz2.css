@@ -1,0 +1,219 @@
+#round2, #round3, #round4, #round5, #round6, #End {
+	display: none;
+  }
+
+
+*{
+	text-align: center;
+	font-family: Arial, serif;
+	background-color: #2d545e;
+	color: white;
+	box-sizing: border-box;
+}
+
+
+h2{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+}
+
+#myBtn {
+	margin: 10px;
+	width: 250px;
+	color: white;
+	background-color: #2d545e;
+	height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	border: 2px solid #e1b382;
+}
+
+#myBtn:hover{
+	background-color: #e1b382;
+	cursor: pointer;
+}
+
+#list{
+	margin: 5px;
+	width: 300px;
+}
+
+#textbox{
+	margin: 10px;
+	background-color: white;
+	color: black;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23.5%;
+  padding: 30px;
+  margin: 5px;
+  height: 400px;
+  border: 2px solid white;
+  background-color: #e1b382;
+  font-weight: bold;
+
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.list:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  
+}
+
+#question {
+	background-color: #e1b382;
+	text-align: left;
+
+}
+
+.home{
+	width: 40%;
+	font-size: 14px;
+	border: 2px solid white;
+	overflow: hidden;
+	align-self: center;
+	display: inline-block;
+}
+
+h3{
+	font-size: 20px;
+}
+
+p{
+	font-size: 14px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+
+#map{
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* Create two equal columns that floats next to each other */
+.columntwo {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px;
+  border: 2px solid white;
+  background-color: #e1b382;
+  font-weight: bold;
+
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowtwo:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #e1b382;
+  border: 2px solid white;
+}
+
+#myBtninverted {
+	margin: 10px;
+	width: 250px;
+	color: white;
+	background-color: #e1b382;
+	height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	border: 2px solid #2d545e;
+}
+
+#myBtninverted:hover{
+	background-color: #2d545e;
+	cursor: pointer;
+}
+
+.list2, .h22{
+	background-color: #e1b382;
+}
+
+#question2 {
+	background-color: #e1b382;
+	text-align: left;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.columnthree {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowthree:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: 2px solid white;
+}
+
+
+#image{
+	padding: 5px;
+
+}
+
+
+#myBtnend {
+	margin: 60px 30px 30px 30px;
+	width: 250px;
+	color: white;
+	background-color: #2d545e;
+	height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	border: 2px solid #e1b382;
+
+}
+
+#myBtnend:hover{
+	background-color: #e1b382;
+	cursor: pointer;
+}
+
+
+#myBtnans {
+	margin: 10px 0px 20px 10px;
+	width: 250px;
+	color: white;
+	background-color: #2d545e;
+	height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	border: 2px solid #e1b382;
+
+}
+
+#myBtnans:hover{
+	background-color: #e1b382;
+	cursor: pointer;
+}
+
+
